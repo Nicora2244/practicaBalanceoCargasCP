@@ -1,0 +1,27 @@
+HTTP/1.0 503 Service Unavailable
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Servicio no disponible</title>
+  <style>
+    body{font-family:sans-serif;background:#0f172a;color:#e2e8f0;display:grid;place-items:center;height:100vh;margin:0}
+    .card{max-width:640px;background:#111827;padding:32px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+    h1{margin:0 0 8px;font-size:28px}
+    p{margin:0 0 16px;line-height:1.5}
+    small{color:#94a3b8}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Lo siento, el servicio no esta disponible (503)</h1>
+    <p>Nuestros servidores están en mantenimiento o temporalmente fuera de servicio.</p>
+    <p>Inténtalo de nuevo en unos minutos.</p>
+    <small>HAProxy – Balanceador de carga</small>
+  </div>
+</body>
+</html>
