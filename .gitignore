@@ -1,0 +1,6 @@
+.vagrant/
+*.log
+Thumbs.db
+.vagrant/
+Thumbs.db
+*.log
